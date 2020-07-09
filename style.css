@@ -1,0 +1,136 @@
+header{
+  background-color: #F0FFF0;
+  padding-top: 10px;
+}
+img{
+  max-width: 100%;
+}
+.img-width{
+  width: 140px;
+}
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn-custom{
+  display: inline-block;
+  color: #fff !important;
+  background-color: #21B573;
+  border-radius: 20px;
+  min-width: 100px;
+}
+.banner .btn-custom{
+  padding: .5rem 2rem;
+}
+.banner{
+  padding: 50px 0;
+}
+.banner-text h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner-text p{
+  margin-top: 25px;
+  color: dimgray;
+}
+.any-schedule{
+  color: #21B573;
+}
+.box-container{
+  padding: 10px;
+}
+.topics{
+  text-align: center;
+  padding: 50px 0;
+}
+.box{
+  background-color: #F0FFF0;
+  padding: 30px;
+  transition: all .3s ease;
+  border-radius: 10px;
+}
+.box img{
+  margin-bottom: 20px;
+}
+.box:hover{
+  background-color: #fff;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+.course-deck{
+  text-align: center;
+  padding: 50px;
+}
+.card{
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+  border: none;
+}
+.card-footer{
+  border: none;
+  background-color: #fff;
+}
+.seats{
+  float: right;
+  text-align: right;
+}
+.card-footer .text-muted{
+  position: relative;
+  padding-left: 25px;
+}
+.card-footer .text-muted::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: center;
+  left: 0;
+  top: 0px;
+}
+.card-footer .text-muted.date::before{
+  background-image: url("images/ICON/calendar.png");
+}
+.card-footer .text-muted.seats::before{
+  background-image: url("images/ICON/people.png");
+}
+.testimonial{
+  text-align: center;
+  padding: 90px 0;
+}
+.testimonial-body{
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+footer{
+  background-color:#24292E;
+  color: #fff;
+  padding: 50px 0 20px 0;
+}
+.footer-link ul li{
+  list-style: none;
+}
+.footer-link p{
+  padding-left: 40px;
+}
+.footer-col-1{
+  margin-bottom: -8%;
+}
+.footer-copyright p{
+  text-align: center;
+}
+.footer-copyright p{
+  padding-top: 40px;
+}
+
+/*  */
+@media (min-width: 992px){
+  header .navbar-expand-lg .navbar-nav .nav-link{
+    padding: .5rem 1.3rem;
+  }
+}
